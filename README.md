@@ -8,19 +8,19 @@ This web app:
 
 **DiscreteMentor is an AI-powered tutor designed to assist students in understanding and solving discrete mathematics problems. The app combines interactivity, accessibility, and advanced validation capabilities to provide a comprehensive learning experience. The main features of the application include:**  
   
-**Interactive Lessons: Users can access lessons on discrete math topics and follow along with step-by-step explanations.**  
+**Interactive Lessons:** *Users can access lessons on discrete math topics and follow along with step-by-step explanations.*  
   
-**Flexible Input Options: Users can input solutions in various formats, including LaTeX, image uploads, or digital pen drawings, making the app accessible to diverse problem-solving preferences.**  
+**Flexible Input Options:** *Users can input solutions in various formats, including LaTeX, image uploads, or digital pen drawings, making the app accessible to diverse problem-solving preferences.*  
   
-**Image Upload for Solutions: This feature allows users to upload images containing their solutions—such as handwritten math problems, diagrams, or graphs—which are processed and validated by the GPT API. It enhances accessibility and provides flexibility for solving problems in different formats.**  
+**Image Upload for Solutions:** *This feature allows users to upload images containing their solutions—such as handwritten math problems, diagrams, or graphs—which are processed and validated by the GPT API. It enhances accessibility and provides flexibility for solving problems in different formats.*  
   
-**AI Tutor Assistance: The AI tutor provides guidance and feedback, ensuring users stay on topic and focus on discrete math concepts.**  
+**AI Tutor Assistance:** *The AI tutor provides guidance and feedback, ensuring users stay on topic and focus on discrete math concepts.*  
   
-**Solutions Validation: The AI Tutor Agent validates solutions and provides hints or corrections where needed, ensuring users stay on topic and focus on discrete math.**  
+**Solutions Validation:** *The AI Tutor Agent validates solutions and provides hints or corrections where needed, ensuring users stay on topic and focus on discrete math.*  
   
-**Gamification: Mini math games are included to make learning more engaging and reinforce discrete math concepts through practice in a fun, interactive way.**  
+**Gamification:** *Mini math games are included to make learning more engaging and reinforce discrete math concepts through practice in a fun, interactive way.*  
   
-**User Interface: The app's responsive design features a 3-column layout for lessons, input, and AI interaction, built with React, Vite, and Tailwind CSS.**  
+**User Interface:** *The app's responsive design features a 3-column layout for lessons, input, and AI interaction, built with React, Vite, and Tailwind CSS.*  
   
 ## Features
 
@@ -40,10 +40,13 @@ This web app:
 - React, Tailwind CSS, Vite  
 - LaTeX Rendering: rehype-katex with custom processing functions for accurate LaTeX parsing and rendering  
 - Image Upload Interface: Allows users to upload images for solution validation  
+  
 **Backend**:  
 - Node.js, Express.js, Axios  
 - Image Processing Integration: Sends uploaded and digitally drawn images to GPT API for validation  
+  
 **API**: OpenAI ChatGPT API, Supabase API  
+  
 **Other**:  
 - Virtual Math Keyboard (MathLive): Enables interactive input of math symbols and equations  
 - Digital Drawing Tool (Excalidraw): Allows graphical and handwritten input for math solutions, supporting mouse and pen devices  
